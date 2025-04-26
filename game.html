@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Game Details</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Fugaz+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <a href="index.html">← Back to all games</a>
+ <div id="gameDetail"></div>
+
+
+ <script>
+   // Extract game ID from URL
+   const params = new URLSearchParams(window.location.search);
+   const gameId = params.get('id');
+
+
+   // Load games data from JSON
+   fetch('games.json')
+     .then(response => response.json())
+     .then(data => {
+       const game = data.find(g => g.id === gameId);
+       displayGameDetails(game);
+     });
+
+
+   function displayGameDetails(game) {
+     const container = document.getElementById('gameDetail');
+
+
+     container.innerHTML = `
+       <h1 class="game-title">${game.title}</h1>
+       <img src="images/${game.image}" alt="${game.title}" width="500">
+       <p><strong>Genre:</strong> ${game.genre}</p>
+       <p><strong>Players:</strong> ${game.players}</p>
+       <p><strong>Age:</strong> ${game.age}</p>
+       <p><strong>Languages:</strong> ${game.languages.join(', ')}</p>
+       <p><strong>Description:</strong> ${game.description}</p>
+     `;
+   }
+ </script>
+</body>
+</html>

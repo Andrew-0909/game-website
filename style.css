@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #102877;
+  }
+   h1 {
+    color: #eff5f2;
+    font-family: "Fugaz One", sans-serif;
+    text-align: center;
+    font-size: 90px;
+  }
+  .game-title {
+    font-family: "Estonia", cursive;
+    font-size:  30px;
+    margin: 10px;
+  }
+   .filters {
+    margin-bottom: 20px;
+  }
+   input, select, button {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+   #gamesContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+   .game {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+   img {
+    border-radius: 8px;
+  }
+   .game img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+   #gameDetail {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  }
+ 

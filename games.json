@@ -1,0 +1,76 @@
+[
+    {
+      "id": "Ori-and-the-Blind-Forest",
+      "title": "Ori and the Blind Forest",
+      "genre": ["Metroivania","Platform-Adventure"],
+      "players": ["Single-player"],
+      "age": "Children",
+      "languages": ["English", "French", "Italian","German","Spanish","Japenese","Russian","Portugese"],
+      "image": "Ori.jpg",
+      "description": "The forest of Nibel is dying. After a powerful storm sets a series of devastating events in motion, an unlikely hero must journey to find his courage and confront a dark nemesis to save his home. “Ori and the Blind Forest” tells the tale of a young orphan destined for heroics, through a visually stunning action-platformer crafted by Moon Studios for PC. Featuring hand-painted artwork, meticulously animated character performance, and a fully orchestrated score, “Ori and the Blind Forest” explores a deeply emotional story about love and sacrifice, and the hope that exists in us all."
+    },
+    {
+        "id": "REPO",
+        "title": "R.E.P.O.",
+        "genre": ["Horror","Online co-op"],
+        "players": ["Multiplayer","Single-player"],
+        "age": "Teens",
+        "languages": ["English"],
+        "image": "REPO.jpg",
+        "description": "R.E.P.O. is an online co-op horror game featuring physics, proximity voice chat and scary monsters. You and up to 5 friends can venture into terrifying environments to extract valuable objects using your physics-based grabbing tool."
+      },
+      {
+        "id": "Escape-The-Backrooms",
+        "title": "Escape The Backrooms",
+        "genre": ["Horror","Online co-op"],
+        "players": ["Multiplayer","Single-player"],
+        "age": "Teens",
+        "languages": ["English","French","German","Spanish","Russian","simplified Chinese","Japenese","Korean","Turkish"],
+        "image": "backrooms.jpg",
+        "description": "Explore the seemingly infinite expanse of eerily familiar levels in the backrooms based on the popular creepypasta lore. Each level features different ways to escape with danger along the way."
+
+      },
+      {
+        "id": "Party-Animals",
+        "title": "Party Animals",
+        "genre": ["Online co-op","funny","party game"],
+        "players": ["Multiplayer","Single-player"],
+        "age": "Teens",
+        "languages": ["English","French","German","Spanish","Thai","simplified Chinese","Japenese","Korean","Traditional Chinese","Portugese"],
+        "image": "party.jpg",
+        "description": "Fight your friends as puppies, kittens and other fuzzy creatures in PARTY ANIMALS! Paw it out with your friends remotely, or huddle together for chaotic fun on the same screen. Interact with the world under our realistic physics engine. Did I mention PUPPIES?"
+      },
+      {
+        "id": "We-Were-Here",
+        "title": "We Were Here",
+        "genre": ["Co-op","Puzzle","Escape room"],
+        "players": ["Online Co-op"],
+        "age": "All ages",
+        "languages": ["English"],
+        "image": "we.jpg",
+        "description": "Lost in a frozen wasteland and split up from your partner inside an abandoned castle, the only possession you have left is a walkie-talkie with a familiar voice on the other end. Can the two of you find your way out in time?"
+      },
+      {
+        "id": "No-Case-Should_remain-Unsolved",
+        "title": "No Case Should Remain Unsolved",
+        "genre": ["Interactive Fiction","Puzzle","Visual Novel"],
+        "players": ["Single-player"],
+        "age": "All ages",
+        "languages": ["English","Korean","French","German","Spanish","simplified Chinese","Traditional Chinese","Portugese","Russian","Italian","Japenese","Indonesian"],
+        "image": "case.jpg",
+        "description": "Twelve years after Senior Inspector Jeon Gyeong's retirement, she is visited by a young police officer: a woman who pleads with her to reexamine Seowon's case. But with each uncovered memory, only one thing becomes clear: everyone in Seowon's vicinity was lying."
+
+      },
+      {
+        "id": "Terraria",
+        "title": "Terraria",
+        "genre": ["Sandbox", "2D", "Open World Survival Craft"],
+        "players": ["Single-player", "Online Co-op"],
+        "age": "Teens",
+        "languages": ["English","French","German","Spanish","simplified Chinese","Polish","Portugese","Russian","Italian"],
+        "image": "Terraria.jpg",
+        "description": "In the World of Terraria, the choice is yours! Blending elements of classic action games with the freedom of sandbox-style creativity, Terraria is a unique gaming experience where both the journey and the destination are completely in the player’s control. The Terraria adventure is truly as unique as the players themselves! Are you up for the monumental task of exploring, creating, and defending a world of your own?"
+
+      }
+]
+ 
