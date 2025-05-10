@@ -1,22 +1,36 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #102877;
+    background-color: #1b2838;
   }
    h1 {
     color: #eff5f2;
-    font-family: "Fugaz One", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
     text-align: center;
     font-size: 90px;
   }
+   p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+   }
   .game-title {
-    font-family: "Estonia", cursive;
-    font-size:  30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size:  20px;
     margin: 10px;
   }
    .filters {
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
   }
+   .filters input,
+   .filters select{
+    font-family: "Josefin Sans", sans-serif;
+    font-size:  16px;
+   }
+
+   button {
+    font-family: "Josefin Sans", sans-serif;
+    font-size:  16px;
+   }
    input, select, button {
     padding: 8px;
     margin-right: 10px;

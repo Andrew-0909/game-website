@@ -6,7 +6,7 @@
  <link rel="stylesheet" href="style.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Fugaz+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
  <h1>Game Store</h1>
@@ -16,15 +16,39 @@
  <div class="filters">
    <input type="text" id="searchInput" placeholder="Search by title...">
   
-   <select id="genreSelect">
-     <option value="">All Genres</option>
-     <option value="RPG">RPG</option>
-     <option value="FPS">FPS</option>
-     <option value="Strategy">Strategy</option>
-     <option value="Horror">Horror</option>
-     <option value="Online co-op">Online co-op</option>
-     <option value="Metroivania">Metroivania</option>
-     <option value="Platform-Adventure">Platform-Adventure</option>
+   <div class="genreSelect">
+    <button id="genreToggle">All Genre</button>
+    <div id="genreBox" class="genre-options hidden">
+      <div class="genre-grid">
+     <button class="genre-option" data-genre="RPG">RPG</button>
+     <button class="genre-option" data-genre="FPS">FPS</button>
+     <button class="genre-option" data-genre="Horror">Horror</button>
+     <button class="genre-option" data-genre="Strategy">Strategy</button>
+     <button class="genre-option" data-genre="Online co-op">Online co-op</button>
+     <button class="genre-option" data-genre="Metroivania">Metrovania</button>
+     <button class="genre-option" data-genre="Platform-Adventure">Platform-Adventure</button>
+     <button class="genre-option" data-genre="Survival">Survival</button>
+     <button class="genre-option" data-genre="Card Game">RPG</button>
+     <button class="genre-option" data-genre="Roguelike">Roguelike</button>
+     <button class="genre-option" data-genre="Party game">Party game</button>
+     <button class="genre-option" data-genre="Puzzle">Puzzle</button>
+     <button class="genre-option" data-genre="Escape room">Escape room</button>
+     <button class="genre-option" data-genre="RPG">RPG</button>
+     <button class="genre-option" data-genre="Interactive Fiction">Interactive Fiction</button>
+     <button class="genre-option" data-genre="Visual Novel">Visual Novel</button>
+     <button class="genre-option" data-genre="Sandbox">Sandbox</button>
+     <button class="genre-option" data-genre="2D">2D</button>
+     <button class="genre-option" data-genre="Life Simulation">Life Simulation</button>
+     <button class="genre-option" data-genre="Crafting">Crafting</button>
+     <button class="genre-option" data-genre="Cartoon">Cartoon</button>
+     <button class="genre-option" data-genre="Souls-like">Souls-like</button>
+     <button class="genre-option" data-genre="Action">Action</button>
+     <button class="genre-option" data-genre="3D">3D</button>
+     <button class="genre-option" data-genre="Mystery">Mystery</button>
+     
+
+     </div>
+    </div>
    </select>
 
 
@@ -51,7 +75,7 @@
      <option value="Russian">Russian</option>
      <option value="Spanish">Spanish</option>
      <option value="German">German</option>
-     <option value="Simplified Chinese">Simplified Chinese</option>
+     <option value="Simplified Chinese">Simplified Chinese</option>s
    </select>
 
 

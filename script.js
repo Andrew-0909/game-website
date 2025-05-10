@@ -21,10 +21,11 @@ function displayGames(games) {
      div.innerHTML = `
        <img src="images/${game.image}" alt="${game.title}" width="200" height="120">
        <h3 class="game-title">${game.title}</h3>
-       <p><strong>Genre:</strong> ${game.genre}</p>
+       <p><strong>Release Date:</strong> ${game.release}</p>
+       <p><strong>Developer:</strong> ${game.developer}</p>
        <p><strong>Players:</strong> ${game.players}</p>
        <p><strong>Age:</strong> ${game.age}</p>
-       <p><strong>Languages:</strong> ${game.languages.join(', ')}</p>
+       
      `;
       div.style.cursor = "pointer";
       // Make the div clickable
@@ -35,6 +36,10 @@ function displayGames(games) {
       container.appendChild(div);
    });
  }
+
+ document.getElementById('genreToggle').addEventListener('click', ()=>{
+  document.getElementById('genreBox').classList.toggle('hidden');
+ })
  // Filtering functionality
 document.getElementById('filterBtn').addEventListener('click', function() {
  const titleQuery = document.getElementById('searchInput').value.toLowerCase();
