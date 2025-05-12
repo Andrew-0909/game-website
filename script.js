@@ -40,10 +40,24 @@ function displayGames(games) {
  document.getElementById('genreToggle').addEventListener('click', ()=>{
   document.getElementById('genreBox').classList.toggle('hidden');
  })
+ document.querySelectorAll('.genre-option').forEach(button=>{
+  button.addEventListener('click',()=>{
+    // deselcting the previously chosen genre
+    document.querySelectorAll('.genre-option').forEach(b=>b.classList.remove('selected'));
+    //select the current option
+    button.classList.add('selected');
+    selectedGenre = button.dataset.genre;
+    //changing the text of the genre box 
+    const label = selectedGenre === ''?'genre':'${button.textContent}';
+    document.getElementById('genreToggle').textContent = label;
+    //disappearing the previous genre box. 
+    document.getElementById('genreBox').classList.add('hidden'); 
+  })
+ })
  // Filtering functionality
 document.getElementById('filterBtn').addEventListener('click', function() {
  const titleQuery = document.getElementById('searchInput').value.toLowerCase();
- const genreQuery = document.getElementById('genreSelect').value;
+ const genreQuery = selectedGenre;
  const playersQuery = document.getElementById('playersSelect').value;
  const ageQuery = document.getElementById('ageSelect').value;
  const languageQuery = document.getElementById('languageSelect').value;
