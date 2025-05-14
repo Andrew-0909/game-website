@@ -2,8 +2,9 @@
     {
       "id": "Ori-and-the-Blind-Forest",
       "title": "Ori and the Blind Forest",
+      "price": "$19.99",
       "developer": "Moon Studios GmbH",
-        "release": "Apr 27, 2016",
+      "release": "Apr 27, 2016",
       "genre": ["Metroidvania","Platform-Adventure"],
       "players": ["Single-player"],
       "age": "Children",
@@ -14,6 +15,7 @@
     {
         "id": "REPO",
         "title": "R.E.P.O.",
+        "price": "$9.99",
         "developer": "Semiwork",
         "release": "Feb 26, 2025",
         "genre": ["Horror","Online co-op"],
@@ -26,6 +28,7 @@
       {
         "id": "Escape-The-Backrooms",
         "title": "Escape The Backrooms",
+        "price": "$9.99",
         "developer": "Fancy Games",
         "release": "Aug 11, 2022",
         "genre": ["Horror","Online co-op"],
@@ -39,6 +42,7 @@
       {
         "id": "Party-Animals",
         "title": "Party Animals",
+        "price": "$19.99",
         "developer": "Recreate Games",
         "release": "Sep 20, 2023",
         "genre": ["Online co-op","Party game"],
@@ -51,6 +55,7 @@
       {
         "id": "We-Were-Here",
         "title": "We Were Here",
+        "price": "Free to play",
         "developer": "Total Mayhem Games",
         "release": "Feb 3, 2017",
         "genre": ["Online co-op","Puzzle","Escape room"],
@@ -63,6 +68,7 @@
       {
         "id": "No-Case-Should_remain-Unsolved",
         "title": "No Case Should Remain Unsolved",
+        "price": "$6.99",
         "developer": "Somi",
         "release": "Jan 17, 2024",
         "genre": ["Interactive Fiction","Puzzle","Visual Novel"],
@@ -76,6 +82,7 @@
       {
         "id": "Terraria",
         "title": "Terraria",
+        "price": "$9.99",
         "developer": "Re-Logic",
         "release": "May 16, 2011",
         "genre": ["Sandbox", "2D", "Open World Survival Craft"],
@@ -89,6 +96,7 @@
       {
         "id": "The-Sims-4",
         "title": "The Sims 4",
+        "price": "Free to play",
         "developer": "Maxis",
         "release": "Feb 26, 2014",
         "genre": ["Life Simulation"],
@@ -101,6 +109,7 @@
       {
         "id": "Muck",
         "title": "Muck",
+        "price": "Free to play",
         "developer": "Dani",
         "release": "Jun 5, 2021",
         "genre": ["survival","Crafting" ],
@@ -113,6 +122,7 @@
       {
         "id": "Cuphead",
         "title": "Cuphead",
+        "price": "$13.99",
         "developer": "Studio MDHR Entertainment Inc.",
         "release": "Sep 29, 2017",
         "genre": ["Online co-op","Cartoon"],
@@ -125,6 +135,7 @@
       {
         "id": "STAR-WARS-Jedi:-survivor",
         "title": "STAR WARS Jedi: survivor",
+        "price": "$13.99",
         "developer": "Respawn",
         "release": "Apr 27, 2023",
         "genre": ["Action","Souls-like" ],
@@ -137,6 +148,7 @@
       {
         "id": "Barotrauma",
         "title": "Barotrauma",
+        "price": "$34.99",
         "developer": "FakeFish, Undertow Games",
         "release": "Mar 13, 2023",
         "genre": ["Survival","2D","Co-op" ],
@@ -149,6 +161,7 @@
       {
         "id": "Subnautica",
         "title": "Subnautica",
+        "price": "$29.99",
         "developer": "Unknown Worlds Entertainment",
         "release": "Jan 23, 2018",
         "genre": ["Survival","Horror","Crafting" ],
@@ -162,6 +175,7 @@
       {
         "id": "Blue-Prince",
         "title": "Blue prince",
+        "price": "$29.99",
         "developer": "Dogubomb",
         "release": "Apr 10, 2025",
         "genre": ["Puzzle","Mystery","3D" ],
@@ -175,6 +189,7 @@
       {
         "id": "Lies-of-P",
         "title": "Lies of P",
+        "price": "$59.99",
         "developer": "NEOWIZ",
         "release": "Sep 18, 2023",
         "genre": ["Souls-like","Action" ],
@@ -187,6 +202,7 @@
       {
         "id": "Stacklands",
         "title": "Stacklands",
+        "price": "$4.79",
         "developer": "Sokpop Collective",
         "release": "Apr 8, 2022",
         "genre": ["Card Game","Survival" ],
@@ -199,6 +215,7 @@
       {
         "id": "Once-Human",
         "title": "Once Human",
+        "price": "Free to play",
         "developer": "Starry Studio",
         "release": "Jul 9, 2024",
         "genre": ["Horror","Survival" ],
@@ -211,6 +228,7 @@
       {
         "id": "Slay-the-Spire",
         "title": "Slay the Spire",
+        "price": "$24.99",
         "developer": "Mega Crit",
         "release": "Jan 23, 2019",
         "genre": ["Card Game","Roguelike" ],

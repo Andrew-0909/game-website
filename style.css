@@ -65,4 +65,35 @@ body {
     border-radius: 10px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.2);
   }
- 
+  .genre-dropdown{
+    position:relative;
+    display:inline-block;
+  }
+ #genreToggle{
+  padding:10px;
+  background-color: white;
+  cursor: pointer;
+ }
+ .genre-option{
+  padding: 10px;
+  cursor: pointer;
+ }
+ .genre-option.selected{
+  background-color: #4285f4;
+  color: white;
+ }
+ #genreBox{
+  position:abosulte;
+  top: 100%;
+  left: 0;
+  padding: 15px;
+  z-index: 1000;
+ }
+ .genre-grid{
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 10px;
+ }
+ .hidden{
+  display: none;
+ }

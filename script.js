@@ -1,5 +1,6 @@
 
 let gamesData = [];
+let selectedGenre = '';
 
 
 // Load games data from JSON
@@ -21,6 +22,7 @@ function displayGames(games) {
      div.innerHTML = `
        <img src="images/${game.image}" alt="${game.title}" width="200" height="120">
        <h3 class="game-title">${game.title}</h3>
+       <p><strong>Price:</strong> ${game.price}</p>
        <p><strong>Release Date:</strong> ${game.release}</p>
        <p><strong>Developer:</strong> ${game.developer}</p>
        <p><strong>Players:</strong> ${game.players}</p>
@@ -48,7 +50,7 @@ function displayGames(games) {
     button.classList.add('selected');
     selectedGenre = button.dataset.genre;
     //changing the text of the genre box 
-    const label = selectedGenre === ''?'genre':'${button.textContent}';
+    const label = selectedGenre === ''?'All Genre':`${button.textContent}`;
     document.getElementById('genreToggle').textContent = label;
     //disappearing the previous genre box. 
     document.getElementById('genreBox').classList.add('hidden'); 
