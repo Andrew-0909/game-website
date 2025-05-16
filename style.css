@@ -1,13 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #1b2838;
+    background-color: #4285f4;
   }
    h1 {
-    color: #eff5f2;
+    color:white;
     font-family: "Pixelify Sans", sans-serif;
     text-align: center;
     font-size: 90px;
+  }
+  h2 {
+    color:rgb(15, 96, 140);
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    font-size: 120px;
   }
    p {
     font-family: "Josefin Sans", sans-serif;
@@ -18,8 +24,17 @@ body {
     font-size:  20px;
     margin: 10px;
   }
+  a {
+    font-size: 20px;
+    color: #e10a0a;
+    font-family: "Pixelify Sans", sans-serif;
+  }
    .filters {
     margin-bottom: 20px; 
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
   }
    .filters input,
    .filters select{
@@ -83,11 +98,18 @@ body {
   color: white;
  }
  #genreBox{
-  position:abosulte;
+  position:absolute;
   top: 100%;
   left: 0;
   padding: 15px;
   z-index: 1000;
+  background-color: rgb(19, 72, 162);
+  border-radius: 10px;
+  box-shadow: #1b2838;
+ }
+ .genreSelect{
+  position:relative;
+  display:inline-block;
  }
  .genre-grid{
   display: grid;

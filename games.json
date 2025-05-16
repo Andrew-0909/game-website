@@ -10,6 +10,7 @@
       "age": "Children",
       "languages": ["English", "French", "Italian","German","Spanish","Japanese","Russian","Portuguese"],
       "image": "Ori.jpg",
+      "trailer": "https://www.youtube.com/embed/cklw-Yu3moE?si=lY7obC5RJziq4pC1",
       "description": "The forest of Nibel is dying. After a powerful storm sets a series of devastating events in motion, an unlikely hero must journey to find his courage and confront a dark nemesis to save his home. “Ori and the Blind Forest” tells the tale of a young orphan destined for heroics, through a visually stunning action-platformer crafted by Moon Studios for PC. Featuring hand-painted artwork, meticulously animated character performance, and a fully orchestrated score, “Ori and the Blind Forest” explores a deeply emotional story about love and sacrifice, and the hope that exists in us all."
     },
     {
@@ -23,6 +24,7 @@
         "age": "Teens",
         "languages": ["English"],
         "image": "REPO.jpg",
+        "trailer": "https://www.youtube.com/embed/oSfoK8eSeD8?si=jEXAJgI5iYLoH9Ef",
         "description": "R.E.P.O. is an online co-op horror game featuring physics, proximity voice chat and scary monsters. You and up to 5 friends can venture into terrifying environments to extract valuable objects using your physics-based grabbing tool."
       },
       {
@@ -36,6 +38,7 @@
         "age": "Teens",
         "languages": ["English","French","German","Spanish","Russian","Simplified Chinese","Japanese","Korean","Turkish"],
         "image": "backrooms.jpg",
+        "trailer": "https://www.youtube.com/embed/NaUNAAvxKe4?si=TY_Ouwr2EFc05S5-",
         "description": "Explore the seemingly infinite expanse of eerily familiar levels in the backrooms based on the popular creepypasta lore. Each level features different ways to escape with danger along the way."
 
       },
@@ -48,8 +51,9 @@
         "genre": ["Online co-op","Party game"],
         "players": ["Multiplayer","Single-player"],
         "age": "Teens",
-        "languages": ["English","French","German","Spanish","Thai","Simplified Chinese","Japanese","Korean","Traditional Chinese","Portugese"],
+        "languages": ["English","French","German","Spanish","Thai","Simplified Chinese","Japanese","Korean","Traditional Chinese","Portuguese"],
         "image": "party.jpg",
+        "trailer": "https://www.youtube.com/embed/_nvKCGdCqU4?si=ZNIFdX5BifsZHNwc",
         "description": "Fight your friends as puppies, kittens and other fuzzy creatures in PARTY ANIMALS! Paw it out with your friends remotely, or huddle together for chaotic fun on the same screen. Interact with the world under our realistic physics engine. Did I mention PUPPIES?"
       },
       {
@@ -63,6 +67,7 @@
         "age": "All ages",
         "languages": ["English"],
         "image": "we.jpg",
+        "trailer": "https://www.youtube.com/embed/Qgjw2DuqQgY?si=StW129nnTSWAKFfr",
         "description": "Lost in a frozen wasteland and split up from your partner inside an abandoned castle, the only possession you have left is a walkie-talkie with a familiar voice on the other end. Can the two of you find your way out in time?"
       },
       {
@@ -74,8 +79,9 @@
         "genre": ["Interactive Fiction","Puzzle","Visual Novel"],
         "players": ["Single-player"],
         "age": "All ages",
-        "languages": ["English","Korean","French","German","Spanish","Simplified Chinese","Traditional Chinese","Portugese","Russian","Italian","Japanese","Indonesian"],
+        "languages": ["English","Korean","French","German","Spanish","Simplified Chinese","Traditional Chinese","Portuguese","Russian","Italian","Japanese","Indonesian"],
         "image": "case.jpg",
+        "trailer": "https://www.youtube.com/embed/wKP2fMm-QDM?si=ZWyUHgC7TIGCndjQ",
         "description": "Twelve years after Senior Inspector Jeon Gyeong's retirement, she is visited by a young police officer: a woman who pleads with her to reexamine Seowon's case. But with each uncovered memory, only one thing becomes clear: everyone in Seowon's vicinity was lying."
 
       },
@@ -88,8 +94,9 @@
         "genre": ["Sandbox", "2D", "Open World Survival Craft"],
         "players": ["Single-player", "Online Co-op"],
         "age": "Teens",
-        "languages": ["English","French","German","Spanish","Simplified Chinese","Polish","Portugese","Russian","Italian"],
+        "languages": ["English","French","German","Spanish","Simplified Chinese","Polish","Portuguese","Russian","Italian"],
         "image": "Terraria.jpg",
+        "trailer": "https://www.youtube.com/embed/6nUvWkD8rAE?si=dUUIK_Wlqr9lDFsB",
         "description": "In the World of Terraria, the choice is yours! Blending elements of classic action games with the freedom of sandbox-style creativity, Terraria is a unique gaming experience where both the journey and the destination are completely in the player’s control. The Terraria adventure is truly as unique as the players themselves! Are you up for the monumental task of exploring, creating, and defending a world of your own?"
 
       },
@@ -102,8 +109,9 @@
         "genre": ["Life Simulation"],
         "players": ["Single-player"],
         "age": "Teens",
-        "languages": ["English","French","German","Spanish","Simplified Chinese","Polish","Portugese","Russian","Italian","Czech","Danish","Dutch","Norwegian","Japanese","Swedish","Finnish","Traditional Chinese","Korean"],
+        "languages": ["English","French","German","Spanish","Simplified Chinese","Polish","Portuguese","Russian","Italian","Czech","Danish","Dutch","Norwegian","Japanese","Swedish","Finnish","Traditional Chinese","Korean"],
         "image": "Sims4.jpg",
+        "trailer": "https://www.youtube.com/embed/DyNv44QR14g?si=cmfSFoJmx01RVOE-",
         "description": "Unleash your imagination and create a unique world of Sims that’s an expression of you. Download for free, and customize every detail from Sims to homes and much more. Choose how Sims look, act, and dress, then decide how they’ll live out each day. Design and build incredible homes for every family, then decorate with your favorite furnishings and décor."
       },
       {
@@ -117,6 +125,7 @@
         "age": "Teens",
         "languages": ["English"],
         "image": "Muck.jpg",
+        "trailer": "https://www.youtube.com/embed/tBZE5HqubmY?si=BsFW0tVGf6iOPrVm",
         "description": "Trapped in the muck on an island, alone or with your friends, try to survive as long as possible by using the resources you find around the island."
       },
       {
@@ -128,8 +137,9 @@
         "genre": ["Online co-op","Cartoon"],
         "players": ["Single-player"],
         "age": "Children",
-        "languages": ["English","German","French","Italian","Spanish","Japanese","Korean","Polish","Portugese","Russian","Simplified Chinese"],
+        "languages": ["English","German","French","Italian","Spanish","Japanese","Korean","Polish","Portuguese","Russian","Simplified Chinese"],
         "image": "Cuphead.jpg",
+        "trailer": "https://www.youtube.com/embed/NN-9SQXoi50?si=_lmhE-sMMZDE9y9Z",
         "description": "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings."
       },
       {
@@ -141,8 +151,9 @@
         "genre": ["Action","Souls-like" ],
         "players": ["Single-player"],
         "age": "Teens",
-        "languages": ["English","German","French","Italian","Spanish","Japanese","Korean","Polish","Portugese","Russian","Simplified Chinese"],
+        "languages": ["English","German","French","Italian","Spanish","Japanese","Korean","Polish","Portuguese","Russian","Simplified Chinese"],
         "image": "STAR WARS.jpg",
+        "trailer": "https://www.youtube.com/embed/VRaobDJjiec?si=_IyAE--jetdRBtMH",
         "description": "The story of Cal Kestis continues in Star Wars Jedi: Survivor™, a third-person, galaxy-spanning, action-adventure game from Respawn Entertainment, developed in collaboration with Lucasfilm Games. This narratively driven, single-player title picks up 5 years after the events of Star Wars Jedi: Fallen Order™ and follows Cal’s increasingly desperate fight as the galaxy descends further into darkness."
       },
       {
@@ -154,8 +165,9 @@
         "genre": ["Survival","2D","Co-op" ],
         "players": ["Single-player", "Multiplayer"],
         "age": "Teens",
-        "languages": ["English","German","French","Traditional Chinese","Spanish","Japanese","Korean","Polish","Portugese","Russian","Simplified Chinese"],
+        "languages": ["English","German","French","Traditional Chinese","Spanish","Japanese","Korean","Polish","Portuguese","Russian","Simplified Chinese"],
         "image": "Barotrauma.jpg",
+        "trailer": "https://www.youtube.com/embed/YUOWk-o8vaM?si=GXHQGTdGYdmKLDwt",
         "description": "Barotrauma is a 2D co-op survival horror submarine simulator, inspired by games like FTL: Faster Than Light, Rimworld, Dwarf Fortress and Space Station 13. It’s a Sci-Fi game that combines ragdoll physics and alien sea monsters with teamwork and existential fear."
       },
       {
@@ -167,8 +179,9 @@
         "genre": ["Survival","Horror","Crafting" ],
         "players": ["Single-player"],
         "age": "Teens",
-        "languages": ["English","German","French","Traditional Chinese","Spanish","Japanese","Korean","Polish","Portugese","Russian","Simplified Chinese","Ukrainian","Dutch","Swedish","Italian","Finnish","Czech","Danish","Vietnamese","Hugarian","Bulgarian","Latvian","Slovak","Lithuanian"],
+        "languages": ["English","German","French","Traditional Chinese","Spanish","Japanese","Korean","Polish","Portuguese","Russian","Simplified Chinese","Ukrainian","Dutch","Swedish","Italian","Finnish","Czech","Danish","Vietnamese","Hungarian","Bulgarian","Latvian","Slovak","Lithuanian"],
         "image": "Subnautica.jpg",
+        "trailer": "https://www.youtube.com/embed/Rz2SNm8VguE?si=NlWPC0OOo_72J7eF",
         "description": "Subnautica is an underwater adventure game set on an alien ocean planet. A massive, open world full of wonder and peril awaits you!"
 
       },
@@ -183,6 +196,7 @@
         "age": "Teens",
         "languages": ["English"],
         "image": "blue prince.jpg",
+        "trailer": "https://www.youtube.com/embed/wIrgdM6shNA?si=DGXrzAO2-Q1k2-6W",
         "description": "Welcome to Mt. Holly, the mysterious manor with shifting rooms. In Blue Prince, you embark on a genre-defying experience, filled with a unique mix of mystery, strategy, and puzzles that weave together to create an unpredictable journey. Will your explorative steps lead you to the rumored Room 46?"
 
       },
@@ -197,6 +211,7 @@
         "age": "Adults",
         "languages": ["English","French","Simplified Chinese","Korean","Italian","German","Spanish","Japanese","Traditional Chinese","Polish","Portuguese"],
         "image": "lies of p.jpg",
+        "trailer": "https://www.youtube.com/embed/kXZoKdr-xeo?si=PbIh8eXNo45MrkRK",
         "description": "You are a puppet created by Geppetto who’s caught in a web of lies with unimaginable monsters and untrustworthy figures standing between you and the events that have befallen the world of Lies of P."
       },
       {
@@ -210,6 +225,7 @@
         "age": "Children",
         "languages": ["English","French","Simplified Chinese","Korean","Italian","German","Spanish","Japanese","Traditional Chinese","Polish","Portuguese","Dutch"],
         "image": "stacklands.jpg",
+        "trailer": "https://www.youtube.com/embed/au7YlQecD4c?si=TypQRzP0Fx-MwWru",
         "description": "Stacklands is a village builder where you stack cards to collect food, build structures, and fight creatures."
       },
       {
@@ -223,6 +239,7 @@
         "age": "Adults",
         "languages": ["English","Simplified Chinese","French","German","Japanese","Korean","Traditional Chinese","Portuguese","Spanish"],
         "image": "once human.jpg",
+        "trailer": "https://www.youtube.com/embed/XXpfbP9Ml_4?si=QX92OgNvTzdJqOth",
         "description": "Once Human has recently updated with a new season label system called 'Visional Wheel: Lunar Oracle.' In this post-apocalyptic world, your sanity will rapidly decline, and survival comes with high risks and high rewards. Under the ominous bloody moon, let’s go crazy together！"
       },
       {
@@ -236,6 +253,7 @@
         "age": "Teens",
         "languages": ["English","Simplified Chinese","French","German","Korean","Russian","Japanese","Polish","Ukrainian","Spanish","Italian","Dutch","Traditional Chinese","Turkish","Thai","Portuguese","Vietnamese"],
         "image": "slay the spire.jpg",
+        "trailer": "https://www.youtube.com/embed/SGLpfqHV5Jc?si=sIoVcozrGUK0J7ms",
         "description": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!"
       }
 ]

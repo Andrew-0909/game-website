@@ -5,8 +5,8 @@
  <title>Game Details</title>
  <link rel="stylesheet" href="style.css">
  <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Fugaz+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Estonia&family=Fugaz+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -34,8 +34,8 @@
 
 
      container.innerHTML = `
-       <h1 class="game-title">${game.title}</h1>
-       <img src="images/${game.image}" alt="${game.title}" width="500">
+       <h2 class="game-title">${game.title}</h2>
+       <iframe width="800" height="400" src=${game.trailer} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
        <p><strong>Release:</strong> ${game.release}</p>
        <p><strong>Developer:</strong> ${game.developer}</p>
        <p><strong>Genre:</strong> ${game.genre}</p>
