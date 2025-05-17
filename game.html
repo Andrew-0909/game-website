@@ -31,6 +31,9 @@
 
    function displayGameDetails(game) {
      const container = document.getElementById('gameDetail');
+     const currentUser = document.getItem('currentUser');
+     const allComments = JSON.parse(localStorage.getItem("comments")||"{}");
+     const gameComments = allComments[game.id]||[];
 
 
      container.innerHTML = `
@@ -43,6 +46,14 @@
        <p><strong>Age:</strong> ${game.age}</p>
        <p><strong>Languages:</strong> ${game.languages.join(', ')}</p>
        <p><strong>Description:</strong> ${game.description}</p>
+
+       <div class="commentSection"> 
+        <h2> Leave a review! </h2>
+        <label for ="ratingInput"> Rate 1~5 </label>
+        <input type="number" id="ratingInput" min="1" max="5">
+        <label for ="commentInput"> Write your review in here </label>
+        <textarea id="commentInput" row="3" cols="50"> </textarea>
+      </div>
      `;
    }
  </script>
