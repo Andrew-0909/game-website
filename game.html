@@ -31,7 +31,7 @@
 
    function displayGameDetails(game) {
      const container = document.getElementById('gameDetail');
-     const currentUser = document.getItem('currentUser');
+     const currentUser = localStorage.getItem('currentUser');
      const allComments = JSON.parse(localStorage.getItem("comments")||"{}");
      const gameComments = allComments[game.id]||[];
 
@@ -48,14 +48,48 @@
        <p><strong>Description:</strong> ${game.description}</p>
 
        <div class="commentSection"> 
-        <h2> Leave a review! </h2>
-        <label for ="ratingInput"> Rate 1~5 </label>
-        <input type="number" id="ratingInput" min="1" max="5">
-        <label for ="commentInput"> Write your review in here </label>
-        <textarea id="commentInput" row="3" cols="50"> </textarea>
+        <h3> Leave a review! </h3>
+        <label for ="ratingInput"> Rate 1~5 </label> <br>
+        <input type="number" id="ratingInput" min="1" max="5"> <br>
+        <label for ="commentInput"> Write your review in here </label> <br>
+        <textarea id="commentInput" rows="3" cols="50"> </textarea> <br>
+        <button onclick="submitComment('${game.id}')"> Submit a review </button> 
+        <h3> Reviews </h3>
+        <div id="commentList">
+        ${gameComments.map(c =>`
+        <div class="comment"> 
+        <p> ${c.user} rated ${c.rating}/5 </p>
+        <p> ${c.text} </p>
+        <p> ${c.date} </p>
+          </div>
+        `).join('')}
+          </div>
       </div>
      `;
    }
+   function submitComment(gameId){
+    const rating = document.getElementById('ratingInput').value;
+    const text = document.getElementById('commentInput').value;
+    const currentUser = localStorage.getItem('currentUser');
+
+    if(!rating||rating<1||rating>5||!text){
+      alert("Rate the game 1~5");
+      return;
+    }
+    const allComments = JSON.parse(localStorage.getItem("comments")||"{}");
+    const newComments = {
+      user:currentUser, 
+      rating:rating,
+      text:text,
+      date:new Date().toLocaleDateString()
+    };
+
+    if(!allComments[gameId]) allComments[gameId] = [];
+    allComments[gameId].push(newComment);
+    localStorage.setItem('comments',JSON.stringify(allComments));
+    alert("Review submitted!");
+    location.reload();
+  }
  </script>
 </body>
 </html>
