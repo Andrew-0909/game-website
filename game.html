@@ -85,7 +85,7 @@
     };
 
     if(!allComments[gameId]) allComments[gameId] = [];
-    allComments[gameId].push(newComment);
+    allComments[gameId].push(newComments);
     localStorage.setItem('comments',JSON.stringify(allComments));
     alert("Review submitted!");
     location.reload();

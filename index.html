@@ -101,9 +101,15 @@
    <button id="filterBtn">Filter</button>
  </div>
  <div id="signup">
-  <button> Logout </button>
-  <button> Signup </button>
-  <button> Login </button>
+  <button onclick="logout()"> Logout </button>
+  <script>
+    function logout(){
+      localStorage.removeItem('currentUser');
+      window.location.href = 'login.html' 
+    }
+  </script>
+  <a href="signup.html"><button> Signup </button></a>
+  <a href="login.html"><button> Login </button></a>
  </div>
 
 
