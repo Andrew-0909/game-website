@@ -104,8 +104,11 @@
   <button onclick="logout()"> Logout </button>
   <script>
     function logout(){
-      localStorage.removeItem('currentUser');
-      window.location.href = 'login.html' 
+      const confirmLogout = confirm("Are you sure you want to logout?");
+      if(confirmLogout){
+        localStorage.removeItem('currentUser');
+        window.location.href = 'login.html' 
+      }
     }
   </script>
   <a href="signup.html"><button> Signup </button></a>

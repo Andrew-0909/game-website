@@ -70,7 +70,9 @@
    function submitComment(gameId){
     const rating = document.getElementById('ratingInput').value;
     const text = document.getElementById('commentInput').value;
-    const currentUser = localStorage.getItem('currentUser');
+    const currentEmail = localStorage.getItem('currentUser');
+    const users = JSON.parse(localStorage.getItem("users")||"{}");
+    const username = users[currentEmail]?.username||"Anonymous";
 
     if(!rating||rating<1||rating>5||!text){
       alert("Rate the game 1~5");
@@ -78,7 +80,7 @@
     }
     const allComments = JSON.parse(localStorage.getItem("comments")||"{}");
     const newComments = {
-      user:currentUser, 
+      user:username, 
       rating:rating,
       text:text,
       date:new Date().toLocaleDateString()

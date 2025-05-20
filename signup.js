@@ -10,7 +10,8 @@ return;
 const users = JSON.parse(localStorage.getItem("users")||"{}");
 if(users[email]){
 document.getElementById("signupMessage").textContent = "Someone is already using this email."
-} else if(users[username]){
+} 
+if(users[username]){
 document.getElementById("signupMessage").textContent = "Someone is already using this username."
 } else{
     users[email] = {
@@ -18,7 +19,7 @@ document.getElementById("signupMessage").textContent = "Someone is already using
         password:password
     };
     localStorage.setItem("users",JSON.stringify(users));
-    localStorage.setItem("currentUser", username);
+    localStorage.setItem("currentUser", email);
     document.getElementById("signupMessage").textContent = "Sign up complete!"
     setTimeout(() => {
         window.location.href = "index.html";
