@@ -85,6 +85,12 @@
       text:text,
       date:new Date().toLocaleDateString()
     };
+      const confirmRewrite  = confirm("Are you sure you want to submit the review? You can't erase your review that you have already submitted.");
+      if(!confirmRewrite){
+      return;
+      }
+ 
+
 
     if(!allComments[gameId]) allComments[gameId] = [];
     allComments[gameId].push(newComments);
@@ -92,6 +98,9 @@
     alert("Review submitted!");
     location.reload();
   }
+ </script>
+ <script type="module">
+  import {db} from './firebase.js'
  </script>
 </body>
 </html>
